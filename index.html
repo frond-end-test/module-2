@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS PROJECT</title>
+</head>
+<style>
+    .container-fluid {
+        background-color: transparent;
+        text-align: center;
+        min-height: 40px;
+    }
+
+    .column  {
+	  flex: 33.33%;
+	  height: 200px;
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #cccccc;
+	  
+      border:2px solid;
+      border-color: black;
+	}
+
+    .column1  {
+	  flex: 33.33%;
+	  height: 200px;
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #cccccc;
+	  
+      border:2px solid;
+      border-color: black;
+	}
+
+    .column2  {
+	  flex: 33.33%;
+	  height: 200px;
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #cccccc;
+	  
+      border:2px solid;
+      border-color: black;
+	}
+
+    .column3  {
+	  flex: 33.33%;
+	  height: 200px;
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #cccccc;
+	  
+      border:2px solid;
+      border-color: black;
+	}
+
+
+	.container {
+	   display: flex;
+       padding: 60px 0px 0px 0px;
+      
+	}
+
+    .text{
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .position-relative {
+        left: 260px;
+        bottom:11px;
+    }
+
+    .box {
+        background-color: orange;
+        color: white;
+        width: 150px;
+        border: 2px solid;
+        border-color: black;
+    }
+
+    @media screen and (max-width: 1400px) {
+        .position-relative {
+            left: 200px;
+        bottom:11px;
+        }
+
+        .column {
+           height:auto;
+
+        }
+
+    }
+
+    @media screen and (max-width: 1200px) {
+        .position-relative {
+            left: 140px;
+        bottom:11px;
+        }
+
+        .column {
+           height:auto;
+
+        }
+
+    }
+
+    @media screen and (max-width: 992px) {
+        .position-relative {
+            left: 60px;
+        bottom:11px;
+        }
+
+        .column {
+           height:auto;
+
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .position-relative {
+            left: 0px;
+        bottom:11px;
+        }
+
+        .column {
+           height:auto;
+
+        }
+
+    }
+    
+
+
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+<body class="">
+   
+    
+    <div class="container-fluid ">
+        <h1 class="text" style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> 
+            OUR-MENU
+        </h1>
+        </div> 
+        <BR>
+        <div class="container">
+            <div class="column">
+                <h2 class="position-relative box" style="text-align:center; font-family: 'Courier New', Courier, monospace;"> CHICKEN </h2>
+              <p> The chicken is a domesticated junglefowl species, with attributes of wild species such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. Rooster or cock is a term for an adult male bird, and a younger male may be called a cockerel. </p>
+            </div>
+            <div class="column">
+                <h2 class="position-relative box" style="text-align:center; font-family: 'Courier New', Courier, monospace;"> BEEF </h2>
+              <p> Beef is the culinary name for meat from cattle. In prehistoric times, humankind hunted aurochs and later domesticated them. Since that time, numerous breeds of cattle have been bred specifically for the quality or quantity of their meat. </p>
+            </div>
+            <div class="column">
+              <h2 class="position-relative box" style="text-align:center; font-family: 'Courier New', Courier, monospace;"> SUSHI </h2>
+              <p> Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice"</p>
+            </div>
+         </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
